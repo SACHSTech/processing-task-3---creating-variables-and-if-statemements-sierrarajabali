@@ -33,6 +33,16 @@ public class Sketch extends PApplet {
   // Drawing of the house
   public void draw() {
 
+  // Defining text size and color
+  textSize(25);
+  fill(0, 0, 0);
+
+  
+  int intHours = hour();
+  int intMinutes = minute();
+
+  text(intHours, 10, 30);
+  text(intMinutes, 50, 30);
   //variables of width and lenght
   int length = 400;
   int width = 400;
