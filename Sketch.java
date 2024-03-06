@@ -26,6 +26,8 @@ public class Sketch extends PApplet {
   /**
    * Called repeatedly, anything drawn to the screen goes here
    */
+  
+  // Inserting random
   int min = 0; 
   int max = 101;
   int intRandom = (int)Math.floor(Math.random() * (max - min + 1) + min);
@@ -92,4 +94,4 @@ public class Sketch extends PApplet {
   
   // define other methods down here.
 }
-}
+} 
